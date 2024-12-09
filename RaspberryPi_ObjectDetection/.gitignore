@@ -1,0 +1,5 @@
+# Thư mục cấu hình IDE
+.idea/
+
+# Virtual environment
+.venv/
