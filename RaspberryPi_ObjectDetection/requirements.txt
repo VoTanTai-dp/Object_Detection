@@ -7,7 +7,6 @@ opencv-python-headless  # OpenCV không có giao diện GUI
 
 # AI and YOLOv8
 ultralytics  # Thư viện YOLOv8 chính
-torch>=1.13.1; platform_machine != "armv7l"  # PyTorch (nếu kiến trúc tương thích)
 onnxruntime  # Chạy mô hình ONNX
 onnx>=1.12.0  # Định dạng mô hình ONNX
 
