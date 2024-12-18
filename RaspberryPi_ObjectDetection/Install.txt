@@ -1,0 +1,47 @@
+sudo apt update
+
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+
+sudo mount /dev/cdrom /mnt
+
+sudo sh /mnt/VBoxLinuxAdditions.run
+
+sudo reboot
+
+sudo apt update
+sudo apt install -y \
+  build-essential \
+  dkms \
+  cmake \
+  gfortran \
+  libatlas-base-dev \
+  libhdf5-dev \
+  libhdf5-serial-dev \
+  libjpeg-dev \
+  liblapack-dev \
+  libopenblas-dev \
+  libpng-dev \
+  python3-dev \
+  zlib1g-dev \
+  python3-pip
+
+sudo apt install git
+git config --global user.name "VoTanTai-dp"
+git config --global user.email "votantai27072003@gmail.com"
+git config --list
+
+git clone ...
+
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+python index.py
+
+
+
+
+
+
+
+
