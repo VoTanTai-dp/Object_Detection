@@ -3,7 +3,7 @@ numpy>=1.21.0  # Tính toán số học
 scipy>=1.8.0  # Công cụ khoa học
 matplotlib>=3.5.0  # Hiển thị đồ thị
 Pillow>=8.0.0  # Xử lý ảnh
-opencv-python-headless  # OpenCV không có giao diện GUI
+opencv-python  # OpenCV
 
 # AI and YOLOv8
 ultralytics  # Thư viện YOLOv8 chính
