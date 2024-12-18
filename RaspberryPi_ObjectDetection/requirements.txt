@@ -6,12 +6,8 @@ Pillow>=8.0.0  # Xử lý ảnh
 opencv-python-headless  # OpenCV không có giao diện GUI
 
 # AI and YOLOv8
-# Sử dụng torch phù hợp với Raspberry Pi
-torch>=1.9.0,<2.0.0  # Phiên bản torch tương thích với Raspberry Pi
-torchvision>=0.10.0,<0.11.0  # TorchVision phù hợp với torch
-ultralytics>=8.0.20  # YOLOv8
+ultralytics  # Thư viện YOLOv8 chính
+torch>=1.13.1
 
 # Text-to-speech
 pyttsx3  # Đọc văn bản thành tiếng
-
-
