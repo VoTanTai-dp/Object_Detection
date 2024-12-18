@@ -1,19 +1,8 @@
 # Core packages
-numpy>=1.21.0  # Tính toán số học
-scipy>=1.8.0  # Công cụ khoa học
-matplotlib>=3.5.0  # Hiển thị đồ thị
-Pillow>=8.0.0  # Xử lý ảnh
-opencv-python-headless  # OpenCV không có giao diện GUI
+opencv-python  # OpenCV
 
 # AI and YOLOv8
 ultralytics  # Thư viện YOLOv8 chính
-torch>=1.13.1; platform_machine != "armv7l"  # PyTorch (nếu kiến trúc tương thích)
-onnxruntime  # Chạy mô hình ONNX
-onnx>=1.12.0  # Định dạng mô hình ONNX
 
 # Text-to-speech
 pyttsx3  # Đọc văn bản thành tiếng
-
-# Optional dependencies
-tqdm>=4.64.0  # Thanh tiến trình
-rich>=12.0.0  # Định dạng terminal đẹp
