@@ -2,7 +2,7 @@
 opencv-python  # OpenCV
 
 # AI and YOLOv8
-ultralytics  # Thư viện YOLOv8 chính
+ultralytics==8.0.3  # Thư viện YOLOv8 chính
 
 # Text-to-speech
 pyttsx3  # Đọc văn bản thành tiếng
