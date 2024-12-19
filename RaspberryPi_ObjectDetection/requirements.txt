@@ -1,3 +1,5 @@
+torch==2.0.0
+
 # Core packages
 opencv-python  # OpenCV
 
